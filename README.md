@@ -9,5 +9,5 @@ This is a simple matchmaking server that uses a logic backend to reason about go
 - [nodejs](https://nodejs.org/en/)
 
 ### Running
-`npm install -u requirements.txt`
-`node server.js`
+- `npm install -u requirements.txt`
+- `node server.js`
