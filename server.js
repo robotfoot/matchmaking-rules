@@ -3,7 +3,7 @@ const http = require('http')
 const port = 3000
 const spawn = require('child_process').spawn;
 //const swipl = spawn('swipl', ['-lh', '/usr']);
-const swipl = spawn('swipl');
+const swipl = spawn('swipl', ['matchmaking.pl']);
 
 swipl.stdout.on('data', (data) => {
   console.log(`stdout: ${data}`);
