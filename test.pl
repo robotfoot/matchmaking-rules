@@ -8,4 +8,4 @@ level(player2, 2.0).
 level(player3, 1.0).
 level(player4, 3.0).
 
-player_pool([player1, player2, player3, player4]).
+% player_pool([player1, player2, player3, player4]).

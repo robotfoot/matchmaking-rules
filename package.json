@@ -4,5 +4,8 @@
   "main":"server.js",
   "author":"Will Macaluso",
   "description": "Logic-based matchmaking ",
-  "dependencies": {}
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
+  }
 }

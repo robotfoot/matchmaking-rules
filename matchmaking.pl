@@ -72,9 +72,3 @@ is_not_a_member(Player, []) :-
 % Level Diff score
 level_diff_score(SafeLevelDiff, LevelDiffScore) :-
   LevelDiffScore is 1.0/SafeLevelDiff.
-
-% Default match threshold is one
-% match_score_threshold(4.1).
-
-% Default min match size
-% min_match_size(3).
